@@ -4,7 +4,7 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -23,47 +23,38 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-light with-opacity">
-    <a class="navbar-brand" href="#">Fixed top</a>
-  </nav>
 
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark with-opacity">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse">
+  <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="#heading">About <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#CTA">Contact</a>
 
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#heading">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#CTA">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-        </ul>
       </div>
-    </nav> -->
-
-<div class="container-fluid header">
-
-
-    <!--Heading section-->
-
+    </div>
+  </nav>
+  <!--Heading section-->
+  <div class="container-fluid header">
     <section id="heading">
-      <div class="">
+      <div class="landing">
         <h1 class="">Hi, i'm Benjamin</h1>
         <img src="CSS/images/foto.jpg" class="bio-foto" />
-        <H3 class="">an aspiring web developer, maker and father of two</H3>
+        <p class="">an aspiring web developer, maker and father of two </p>
       </div>
+  </div>
+  </section>
 
-      <div class="row with-opacity">
-        <h1 class="">Bio</h1>
+  <!-- Bio section -->
+
+  <section id="bio">
+    <div claas="container-fluid ">
+      <div class="bio with-opacity">
+        <h2 class="">Bio</h2>
         <p class="bio-tekst">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt volutpat orci, ac tincidunt purus molestie nec. Pellentesque et purus ipsum. Sed lobortis quam ut ipsum ornare, a rhoncus urna semper. Ut ut velit dui. Aliquam
           elit
@@ -76,13 +67,8 @@
           nunc.
         </p>
       </div>
-    </section>
-  </div>
-
-
-
-
-
+    </div>
+  </section>
 
   <!--Skills section-->
 
@@ -129,43 +115,60 @@
         </div>
       </div>
   </section>
-
-
-
-
   </div>
 
 
 
+  <!-- Projects section -->
+
   <section id="projects">
     <div class="container-fluid header">
       <h1> Projects</h1>
-      <div class="with-opacity">
-
-        <p>Here you will find some of the projects i have worked on</p>
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <p class="d-block w-100" alt="First slide"></p>
-            </div>
-            <div class="carousel-item">
-              <p class="d-block w-100" alt="Second slide"></p>
-            </div>
-            <div class="carousel-item">
-              <p class="d-block w-100" alt="Third slide"></p>
+      <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+        <div class="carousel-inner d-flex">
+          <div class="carousel-item active ">
+            <div class="card project-card with-opacity">
+              <img src="CSS/images/fog.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-box btn-outline-light">Go somewhere</a>
+              </div>
             </div>
           </div>
 
 
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <div class="carousel-item">
+            <div class="card project-card with-opacity">
+              <img src="CSS/images/fog.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-box btn-outline-light">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <div class="card project-card with-opacity">
+              <img src="CSS/images/fog.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-box btn-outline-light">Go somewhere</a>
+              </div>
+            </div>
+          </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
   </section>
@@ -181,19 +184,24 @@
   <section id="CTA">
     <div type="container-fluid" class="with-opacity">
       <div class="contact-me">
-        <h1>Get In Touch !</h2>
-          <p class="">I am open for interships, temporary or permanent positions.</p>
-          <a class="btn btn-lg btn-outline-light" href="mailto:benjamin_Vandevelde@hotmail.com">CONTACT ME</a>
-      </div>
-      <div type="container-fluid footer" class="">
-        <div>
-          <a class="footer-link" href="https://www.linkedin.com/in/benjamin-vandevelde-47b8b093/">LinkedIn</a>
-          <a class="footer-link" href="https://twitter.com/benjaminvdv">Twitter</a>
-          <p class="copyright">© 2020 Vandevelde Benjamin.</p>
-        </div>
+        <h2>Get In Touch !</h2>
+        <p class="">I am open for interships, temporary or permanent positions.</p>
       </div>
     </div>
   </section>
+
+  <footer id="footer" class="">
+    <div type="container-fluid footer" class="">
+      <div>
+        <a href="https://www.facebook.com/benjamin.vandevelde/" target="_blank"><i class="fab fa-facebook-f links"></i></a>
+        <a href="https://twitter.com/benjaminvdv/" target="_blank"><i class="fab fa-twitter links"></i></a>
+        <a href="https://www.instagram.com/benjaminvdv87/" target="_blank"><i class="fab fa-instagram links"></i></a>
+        <a href="https://www.linkedin.com/in/benjamin-vandevelde-47b8b093/" target="_blank"><i class="fab fa-linkedin links"></i></a>
+        <a href="mailto:benjamin_Vandevelde@hotmail.com " target="_blank"><i class="fas fa-envelope links"></i></a>
+        <p class="copyright">© 2020 Vandevelde Benjamin.</p>
+      </div>
+    </div>
+  </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

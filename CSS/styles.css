@@ -13,11 +13,16 @@ body {
   text-align: center;
   color: white;
   font-weight: 400;
+  margin-bottom: 0;
 }
 
 .bio-foto {
   width: 150px;
   border-radius: 100%;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
 
 @media(max-width:853px) {
@@ -53,6 +58,14 @@ h1 {
   font-family: 'Amatic SC', cursive;
   font-size: 4em;
   font-weight: 900;
+  padding-top: 50px;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  font-weight: 900;
+  text-align: center;
 }
 
 h3 {
@@ -62,22 +75,37 @@ h3 {
 
 .header {
   margin: auto;
-  min-height: 720px;
 }
 
 .bio-tekst {
+  padding: 30px 0;
   text-align: justify;
+}
+
+.container-fluid {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .with-opacity {
   text-align: center;
   background: rgba(236, 232, 217, 0.15);
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   line-height: 1.5;
+}
+
+.project-card {
+  width: 60%;
+  margin: auto;
 }
 
 #skills {}
 
 #projects {}
 
-#CTA {}
+.links {
+  color: #c7c7c9;
+  text-decoration: none;
+  background-color: transparent;
+  margin: 20px 10px;
+}
