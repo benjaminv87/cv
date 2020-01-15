@@ -22,8 +22,9 @@ body {
 
 @media(max-width:853px) {
   body {
-    background-image:url("images/landscape-standing.jpg");
-  }
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
   .bio-foto{
   width: 200px;
 }
