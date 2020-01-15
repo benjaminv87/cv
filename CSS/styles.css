@@ -24,11 +24,24 @@ body {
   body {
     background-image: url("images/landscape-standing.jpg");
     background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: scroll;
   }
-  .bio-foto{
+
+  .bio-foto {
     width: 200px;
+  }
+
+  #heading {
+    color: black;
+  }
+
+  #heading h1 {
+    color: black;
+  }
+
+  #heading h3 {
+    color: black;
   }
 }
 
