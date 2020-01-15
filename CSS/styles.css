@@ -1,0 +1,62 @@
+html{
+   scroll-behavior: smooth;
+  }
+
+body {
+background-color: #fffdf6;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-image: url("images/landscape.jpg");
+padding: 3% 15% 2%;
+
+font-family: 'Roboto', sans-serif;
+text-align: center;
+color:lightgrey;
+}
+
+h1, h2 , h3 {
+  color:#FFF;
+
+}
+
+
+
+h1{
+font-family: 'Amatic SC', cursive;
+font-size: 4rem;
+font-weight: 900;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+
+.header{
+margin: auto;
+min-height: 720px;
+}
+
+.with-opacity{
+  text-align: center;
+  background: rgba(236  , 232 , 217, 0.25);
+  margin-bottom: 20px;
+}
+
+.bio-foto{
+max-width:20%;
+border-radius: 100%;
+}
+
+
+#skills{
+}
+
+#projects{
+
+}
+
+#CTA{
+}
