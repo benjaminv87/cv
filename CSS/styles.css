@@ -22,12 +22,14 @@ body {
 
 @media(max-width:853px) {
   body {
+    background-image: url("images/landscape-standing.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: local;
+    background-position: center;
+    background-attachment: fixed;
+  }
   .bio-foto{
-  width: 200px;
-}
+    width: 200px;
+  }
 }
 
 h1, h2, h3 {
