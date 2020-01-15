@@ -15,11 +15,18 @@ body {
   font-weight: 400;
 }
 
-@media(max-width:1024px) {
+.bio-foto {
+  width: 150px;
+  border-radius: 100%;
+}
+
+@media(max-width:853px) {
   body {
     background-image:url("images/landscape-standing.jpg");
-    background-position: center;
   }
+  .bio-foto{
+  width: 200px;
+}
 }
 
 h1, h2, h3 {
@@ -28,12 +35,12 @@ h1, h2, h3 {
 
 h1 {
   font-family: 'Amatic SC', cursive;
-  font-size: 4rem;
+  font-size: 4em;
   font-weight: 900;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-weight: 400;
 }
 
@@ -50,11 +57,7 @@ h3 {
   text-align: center;
   background: rgba(236, 232, 217, 0.15);
   margin-bottom: 20px;
-}
-
-.bio-foto {
-  max-width: 20%;
-  border-radius: 100%;
+  line-height: 1.5;
 }
 
 #skills {}
