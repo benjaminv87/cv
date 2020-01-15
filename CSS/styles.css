@@ -23,6 +23,7 @@ body {
 @media(max-width:853px) {
   body {
     background-image:url("images/landscape-standing.jpg");
+    background-attachment: scroll;
   }
   .bio-foto{
   width: 200px;
