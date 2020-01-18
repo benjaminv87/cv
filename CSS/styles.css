@@ -24,14 +24,14 @@ body {
 .navbar .navbar-collapse {
   text-align: center;
 }
-
+/*
 @media(max-width:853px) {
   body {
     background-image: url("images/landscape-standing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-  }
+  }*/
 
   .bio-foto {
     width: 200px;
